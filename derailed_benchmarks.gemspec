@@ -37,6 +37,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "webrick",  ">= 0"
   gem.add_development_dependency "capybara",  "~> 2"
   gem.add_development_dependency "m"
-  gem.add_development_dependency "rails",     "> 3", "<= 7"
+  gem.add_development_dependency "rails",     "~> 6.0"
   gem.add_development_dependency "devise",    "> 3", "< 6"
 end
